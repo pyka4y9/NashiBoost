@@ -60,6 +60,10 @@ body {
   padding: 12px 45px;
 }
 
+.burger {
+  display: none;
+}
+
 /* hero */
 .hero {
   background: url("../img/main_bg.png") center center/cover no-repeat;
@@ -142,4 +146,100 @@ body {
 .bold {
   font-weight: bold;
   color: #000000;
+}
+
+/* media */
+@media (max-width: 768px) {
+  .burger {
+  display: block;
+  }
+
+  .container {
+    max-width: 550px;
+    width: 97%;
+  }
+
+  .header__logo {
+    margin-right: 0px;
+  }
+  .navbar__item {
+    display: none;
+  }
+
+  .login__btn {
+    display: none;
+  }
+
+  .hero__content {
+    padding-top: 150px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+  }
+
+  .hero__subtitle {
+    font-size: 28px;
+  }
+
+  .btn__primary {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .btn__secondry {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .hero__btn {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 520px) {
+    .container {
+    width: 90%;
+  }
+
+  .advantages__title {
+    font-size: 33px;
+  }
+
+  
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .hero__subtitle {
+    font-size: 23px;
+  }
+
+  .advantage__item {
+    font-size: 24px;
+  }
+
+  .header__logo {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 360px) {
+    .container {
+    width: 96%;
+  }
+
+  .hero__title {
+    font-size: 30px;
+  }
+
+  
+  .hero__subtitle {
+    font-size: 18px;
+  }
+
+
+
 }
