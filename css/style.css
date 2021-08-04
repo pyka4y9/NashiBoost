@@ -152,6 +152,7 @@ body {
 @media (max-width: 768px) {
   .burger {
   display: block;
+  margin-right: 15px;
   }
 
   .container {
